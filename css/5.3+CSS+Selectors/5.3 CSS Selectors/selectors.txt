@@ -1,0 +1,61 @@
+CSS selectors are how you tell CSS which HTML elements you want to style.
+
+The main ones you'll encounter while learning are:
+
+/* Element selector */
+p {
+  color: red;
+}
+
+Targets all <p> elements.
+
+/* Class selector */
+.title {
+  color: blue;
+}
+
+Targets elements with class="title".
+
+/* ID selector */
+#heading {
+  color: green;
+}
+
+Targets the element with id="heading".
+
+/* Universal selector */
+* {
+  margin: 0;
+}
+
+Targets everything.
+
+The mental model
+
+If HTML says:
+
+<h1 class="title">Hello</h1>
+
+CSS asks:
+
+"Which element am I selecting?"
+
+Then:
+
+.title {
+   /* how should it look? */
+}
+
+So remember:
+
+Selector → selects WHAT
+Property → specifies WHAT aspect
+Value → specifies HOW
+
+.title {
+  color: blue;
+}
+
+.title → selector
+color → property
+blue → value
