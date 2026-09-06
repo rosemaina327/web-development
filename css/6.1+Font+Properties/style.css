@@ -1,0 +1,17 @@
+html{
+    font-size: 30px;
+}
+p:nth-child(2) {
+  color: coral;
+}
+p:nth-child(3)  {font-size: 2rem;}
+p:nth-child(4) {font-weight: 900;}
+p:nth-child(5) {font-size: 2ex;}
+p:nth-child(6) {
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+}
+p:last-child{text-align: right;
+
+}
+
